@@ -1,4 +1,3 @@
-
 # set up the main makeCacheMatrix function
 makeCacheMatrix <- function (x = matrix()){
   m <- solve(x) # calculate the inverse data, if set m <- NULL, then cacheinverse will calculate the inverse data when it detects m <- NULL
